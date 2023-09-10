@@ -1,0 +1,71 @@
+---
+import '../style/banner.css';
+import freno from '../assets/freno.png';
+import iluminacion from '../assets/iluminacion.png';
+import aceite from '../assets/aceite.png';
+import llantas from '../assets/llantas.png';
+
+---
+<div class="banner__container">
+    <section class="banner_content-large">
+        <div class="banner__items-large">
+            <article class="banner__items-description">
+                <span>Frenos</span>
+                <p>Accesorios para el cuidado de los frenos</p>
+                <button class="banner__items-button">
+                    Comprar
+                </button>
+
+            </article>
+            <figure class="banner__items-img">
+                <img src={freno.src} alt="imagen frenos vehiculo">
+            </figure>
+        </div>
+
+        <section class="banner__items-containerSmall">
+            <div class="banner__items-small">
+                <article class="banner__items-description">
+                    <span>iluminacion</span>
+                    <p>Faros e iluminación</p>
+                    <button class="banner__items-button">
+                        Comprar
+                    </button>
+                    
+                </article>
+                <figure class="banner__items-img">
+                    <img src={iluminacion.src} alt="imagen faros para  vehiculo">
+                </figure>
+            </div>
+            <div class="banner__items-small">
+                <article class="banner__items-description">
+                    <span>Lubricantes</span>
+                    <p>Lubricantes y refrigeración</p>
+                    <button class="banner__items-button">
+                        Comprar
+                    </button>
+
+                </article>
+                <figure class="banner__items-img">
+                    <img src={aceite.src} alt="imagen faros para  vehiculo">
+                </figure>
+            </div>
+        </section>
+    </section>
+
+    <section class="banner_content-small">
+        <div class="banner__content-large">
+            <article class="banner__items-description">
+                <span>Llantas</span>
+                <p>Llantas y  rines</p>
+                <button class="banner__items-button">
+                    Comprar
+                </button>
+            </article>
+            <figure class="banner__items-img">
+                <img src={llantas.src} alt="imagen frenos vehiculo">
+            </figure>
+        </div>
+    </section>
+
+    
+</div>
